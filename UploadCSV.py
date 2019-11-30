@@ -6,7 +6,7 @@ def main(csvName, URL):
              'https://www.googleapis.com/auth/drive']
 
     print(URL)
-    credentials = ServiceAccountCredentials.from_json_keyfile_name('ee_test_credentials.json', scope)
+    credentials = ServiceAccountCredentials.from_json_keyfile_name('credentials.json', scope)
 
     gc = gspread.authorize(credentials)
 

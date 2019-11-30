@@ -12,7 +12,7 @@ $ sudo apt-get install python3
 ```
 
 
-A Google Sheets API Token, which can be obtained from [https://console.developers.google.com/](https://console.developers.google.com/).  The program expects a filename of: 'credentials.json'.
+A Google Sheets API Token, which can be obtained from [https://console.developers.google.com/](https://console.developers.google.com/).  The program expects a filename of: 'credentials.json', The 'credentials.json' file should be placed in the same folder as the UpdateCSV.py file.
 
 Tested on Ubuntu 18.04.
 
